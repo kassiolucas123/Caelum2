@@ -7,18 +7,20 @@ public class TestaFuncionario {
 		Data data = new Data();
 		novo.dataEntrada = data;
 		
-		novo.nome = "kassio lucas";
-		novo.rg = "36.194-92";
+		novo.setNome("kassio lucas");
+		novo.setRg("36.194-92");
+		novo.setSalario(100);
+		
 		novo.dataEntrada.dia = 10;
 		novo.dataEntrada.ano = 2010;
 		novo.dataEntrada.mes = 12;
-		novo.salario = 100;
 		
-		novo2.nome = "kassio lucas";
-		novo2.rg = "36.194-92";
-		novo2.salario = 100;
 		
-		System.out.println("Salario mensal: " + novo.salario);
+		novo2.setNome("kassio lucas");
+		novo2.setRg("36.194-92");
+		novo2.setSalario(100);
+		
+		System.out.println("Salario mensal: " + novo.getSalario());
 		System.out.println("Salario anual: " + novo.calculaGanhoAnual());
 		//novo.mostra();
 		

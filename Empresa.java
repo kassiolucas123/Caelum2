@@ -17,7 +17,7 @@ public class Empresa {
 
 	public String getCnpj() {
 		return cnpj;
-	}
+	} 
 
 	void adicionaFuncionario(Funcionario f) {
 		if (contador < empregados.length) {

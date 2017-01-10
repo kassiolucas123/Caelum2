@@ -1,12 +1,10 @@
 package Capitulo04;
-//exercicio 4.2 - Orientação a objetos
 
-import org.omg.Messaging.SyncScopeHelper;
 
 public class Funcionario {
 	private String nome;
 	private double salario;
-	private Data dataEntrada;
+	Data dataEntrada;
 	private String rg;
 	
 	public String Funcionario(String nome) {
